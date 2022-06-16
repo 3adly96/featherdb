@@ -1,6 +1,6 @@
 {
-  "name": "featherdb",
-  "version": "0.0.1",
+  "name": "featherdb-redis",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
