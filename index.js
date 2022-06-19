@@ -17,7 +17,7 @@ module.exports = {
                 let res = await this.redisClient.call(`oyster_${fn}`, JSON.stringify(args));
                 return JSON.parse(res);
             } catch(err) {
-                return err;
+                return err.message;
             }
         }
     }
